@@ -24,6 +24,10 @@ let c = 71;
 
 const esMayor = (a, b, c) => (a > b && a > c) ? `a = ${a}` : (b > c) ? `b = ${b}` : `c = ${c}`;
 
+const numeros = [23, 4, 5, 7, 8];
+
+//console.log(Math.max(...numeros)); // spread operator
+
 /* if(a > b && a > c){
     esMayor = `a = ${a}`;
 }else if (b > c){
@@ -43,7 +47,7 @@ const esMayor = (a, b, c) => (a > b && a > c) ? `a = ${a}` : (b > c) ? `b = ${b}
     esMayor = `c = ${c}`;
 } */
 
-console.log(esMayor(a, b, c));
+//console.log(esMayor(a, b, c));
 
 module.exports = {
     esMayor
