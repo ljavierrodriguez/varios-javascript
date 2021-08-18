@@ -1,0 +1,23 @@
+{
+  "name": "varios-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ljavierrodriguez/varios-javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ljavierrodriguez/varios-javascript/issues"
+  },
+  "homepage": "https://github.com/ljavierrodriguez/varios-javascript#readme",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
